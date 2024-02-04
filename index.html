@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtree Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Binary Tree Subtree Checker</h2>
+
+        <div class="input-container">
+            <label for="rootInput">Root Tree:</label>
+            <input type="text" id="rootInput" placeholder="Enter root tree nodes (comma-separated)">
+        </div>
+
+        <div class="input-container">
+            <label for="subRootInput">SubRoot Tree:</label>
+            <input type="text" id="subRootInput" placeholder="Enter subRoot tree nodes (comma-separated)">
+        </div>
+
+        <button onclick="checkSubtree()">Check Subtree</button>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="tree.js"></script>
+</body>
+</html>
